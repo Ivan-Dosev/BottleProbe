@@ -13,6 +13,8 @@
 		CCF36F1C2585FFD40069311A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF36F1B2585FFD40069311A /* Preview Assets.xcassets */; };
 		CCF36F272585FFD40069311A /* BottleProbeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF36F262585FFD40069311A /* BottleProbeTests.swift */; };
 		CCF36F322585FFD40069311A /* BottleProbeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF36F312585FFD40069311A /* BottleProbeUITests.swift */; };
+		CCF36F43258600330069311A /* Arda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF36F42258600330069311A /* Arda.swift */; };
+		CCF36F48258611240069311A /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF36F47258611240069311A /* bottle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CCF36F2D2585FFD40069311A /* BottleProbeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottleProbeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF36F312585FFD40069311A /* BottleProbeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleProbeUITests.swift; sourceTree = "<group>"; };
 		CCF36F332585FFD40069311A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF36F42258600330069311A /* Arda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arda.swift; sourceTree = "<group>"; };
+		CCF36F47258611240069311A /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CCF36F142585FFD30069311A /* BottleProbeApp.swift */,
 				CCF36F162585FFD30069311A /* ContentView.swift */,
+				CCF36F47258611240069311A /* bottle.png */,
+				CCF36F42258600330069311A /* Arda.swift */,
 				CCF36F182585FFD40069311A /* Assets.xcassets */,
 				CCF36F1D2585FFD40069311A /* Info.plist */,
 				CCF36F1A2585FFD40069311A /* Preview Content */,
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF36F48258611240069311A /* bottle.png in Resources */,
 				CCF36F1C2585FFD40069311A /* Preview Assets.xcassets in Resources */,
 				CCF36F192585FFD40069311A /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCF36F172585FFD30069311A /* ContentView.swift in Sources */,
+				CCF36F43258600330069311A /* Arda.swift in Sources */,
 				CCF36F152585FFD30069311A /* BottleProbeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
