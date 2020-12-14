@@ -135,7 +135,7 @@ extension SKSpriteNode {
                     
                     if showHeatmap {
 //                        piece.color = UIColor(red: blastIntensity, green: 1.0 - blastIntensity, blue: 1.0 - blastIntensity, alpha: 1.0)
-                        piece.color = UIColor(red: blastIntensity, green:  blastIntensity , blue:  blastIntensity * 0.01 , alpha: 1.0)
+                       piece.color = UIColor(red: blastIntensity / 0.0001 , green:  blastIntensity , blue:  blastIntensity  , alpha: 1.0)
 
                         piece.colorBlendFactor = 1.0
                     }
